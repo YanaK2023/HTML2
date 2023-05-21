@@ -64,5 +64,116 @@
 
         <img src="./photo/flag.jpg" width="220" height="270" alt="flag" />
         <p><cite>The flag</cite> by Edvard Munch. Painted in 1983.</p>
+        <!----------------Елементи <bdo>----->
+        <p>
+            If your browser supports bi-directional override (bdo), the next
+            line will be written from right to left (rtl):
+        </p>
+        <bdo dir="rtl">This line will be written from right to left</bdo>
+        <!---------------коментарі до тексту ------------>
+        <!------Tgis is a comment-->
+        <p>This is a paragraph</p>
+
+        <!--------------посилання HTML ------------>
+        <p><a href="https://www.google.com">Visit our HTML tutorial </a></p>
+        <!-------------- HTML links------------>
+        <p>The image is a link. You can click on it.</p>
+
+        <a href="https://www.google.com">
+            <img
+                src="smiley.gif"
+                alt="HTML tutorial"
+                style="width: 42px; height: 42px; border: 0"
+            />
+        </a>
+        <!-------------- HTML tables------------>
+
+        <!-------------- CSS------------>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            table {
+                width: 50%;
+            }
+            th,
+            td {
+                padding: 5px;
+                text-align: left;
+            }
+            #t01 {
+                background-color: #f1f1c1;
+            }
+        </style>
+        <!-------------- CSS------------>
+        <table id="t01">
+            <tr>
+                <th>first name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+
+        <h2>Cell that spans two columns:</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </table>
+
+        <h2>Cell that spans two columns:</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>55577854</td>
+            </tr>
+            <tr>
+                <td>55577855</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>
+                Monthly savings
+            </caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$50</td>
+            </tr>
+        </table>
     </body>
 </html>
